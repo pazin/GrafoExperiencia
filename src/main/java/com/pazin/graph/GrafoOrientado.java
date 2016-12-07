@@ -147,4 +147,20 @@ public class GrafoOrientado<T> implements Iterable<T> {
 	public boolean isEmpty(){
 		return mapaInterno.isEmpty();
 	}
+
+
+
+	/**
+	 * Vai exportar esse grafo para ser desenhado pelo GraphViz usando a notação DOT
+	 * 
+	 * @return
+	 */
+	public String exportaDOTNotation(){
+		
+		StringBuilder result = new StringBuilder();
+		
+		
+
+		return result.toString();
+	}
 }
